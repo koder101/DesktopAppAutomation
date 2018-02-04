@@ -1,4 +1,4 @@
-﻿/*****************************************************************
+﻿/******************************************************************
  * Author   : Zeeshaan Ali
  * Email    : Zeeshaanbond@yahoo.com
  * 
@@ -21,7 +21,6 @@ namespace DesktopAppAutomation
         {
             int index = -1;
             var actions = ConfigurationManager.GetSection("ActionSequence/Actions") as NameValueCollection;
-//Test Fork//
             ByProperty winFinder = null;
             Winium.Cruciatus.Elements.CruciatusElement win = null;
             bool fault = false;
